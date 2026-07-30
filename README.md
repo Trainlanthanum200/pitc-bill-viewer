@@ -1,6 +1,21 @@
-# ⚡ PITC Bill Viewer
+# ⚡ PITC Bill Viewer — MEPCO, LESCO, FESCO, GEPCO, PESCO, HESCO, SEPCO, QESCO, TESCO & IESCO Bill Checker
 
-A Flutter app to check electricity bills from any Pakistani DISCO (IESCO, LESCO, FESCO, GEPCO, MEPCO, PESCO, HESCO, SEPCO, QESCO, TESCO) using your 14-digit reference number — instantly, right from your phone.
+A free Flutter app to check your **electricity bill online** for any Pakistani electricity company — instantly, right from your phone, using your 14-digit reference number.
+
+## Supported Companies
+
+| Company | Full Name |
+|---|---|
+| **MEPCO** | Multan Electric Power Company |
+| **LESCO** | Lahore Electric Supply Company |
+| **FESCO** | Faisalabad Electric Supply Company |
+| **GEPCO** | Gujranwala Electric Power Company |
+| **PESCO** | Peshawar Electric Supply Company |
+| **HESCO** | Hyderabad Electric Supply Company |
+| **SEPCO** | Sukkur Electric Power Company |
+| **QESCO** | Quetta Electric Supply Company |
+| **TESCO** | Tribal Electric Supply Company |
+| **IESCO** | Islamabad Electric Supply Company |
 
 > ⚠️ **Disclaimer:** This is an independent, unofficial app. It is **not affiliated with, endorsed by, or connected to** PITC, WAPDA, or any Pakistani government body or electricity distribution company. It simply fetches publicly available bill information from the official PITC billing portal (`bill.pitc.com.pk`) for personal convenience. For billing disputes, payments, or official matters, please contact your respective electricity company directly.
 
